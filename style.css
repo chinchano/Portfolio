@@ -1,0 +1,118 @@
+
+
+/* Links */
+a:focus,a:hover {
+  color: #fff;
+  text-shadow:none;
+  background-color: #80b3ff;
+}
+
+/* My Work button */
+.btn-helveta:hover, .btn-helveta:focus {
+  background-color: #80b3ff;
+  border: 0;
+  border-radius: 10%;
+}
+
+/* Base elements */
+body {
+  height: 100%;
+}
+
+body {
+  /*color:  */
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+body,
+p,
+.lead {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+
+/* Extra markup for placementand style */
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+
+.masthead-nav > li > a {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
+  border-bottom-color: #80b3ff;
+  color:#80b3ff;
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #80b3ff;
+  border-bottom-color: #80b3ff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+/*Cover*/
+.cover {
+  padding 0 20px;
+}
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+#myScrollspy {
+   
+}
+.navbar {
+
+}
