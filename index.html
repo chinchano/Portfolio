@@ -1,97 +1,194 @@
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<body id="page-top" class="index">
+   <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Chinchano</a>
+            </div>
 
-  <div class="site wrapper">
-    <div class="site-wrapper-inner">
-      <div class="cover-container">
-
-        <div class="masthead clearfix">
-          <div class="inner">
-            <p class="masthead-brand">Chinchano</p>
-            <ul class="nav masthead-nav">
-              <li class="active"><a href="#">About</a></li>
-              <li class><a href="#">Portfolio</a></li>
-              <li class=><a href="#">Contact</a></li>
-            </ul>
-          </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- Inner Cover -->
-        <div class="inner cover">
-          <h1 class="cover-heading">Brian | McKie</h1>
-          <p class="lead">
-            I got into software development mainly from curiosity. Quickly, that curiosity turned into an obsession with learning something new as often as I could. A lack of a Computer Science degree or any background of such before I started learning gave me the
-            motivation needed to prove myself.
-
-            <br />
-            <br /> asfasdfasdfI got into software development mainly from curiosity. Quickly, that curiosity turned into an obsession with learning something new as often as I could. A lack of a Computer Science degree or any background of such before
-            I started learning gave me the motivation needed to prove myself.
-          </p>
-          <p class="lead">
-            <a href="#my-portfolio" class="btn btn-lg btn-helveta">My Work</a>
-          </p>
+        <!-- /.container-fluid -->
+    </nav>
+  
+   <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Brian | McKie</span>
+                        <hr class="star-light">
+                        <span class="skills">Developer - Bassist - Fitness Enthusiast</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="mastfoot">
-          <div class="inner">
-            <p></p>
-          </div>
+    </header>
+  
+     <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I got into software development mainly from curiosity. I began to see why developement is a field that you love or hate. I loved it! Now I'm working as much as I can to continue improving my craft.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p> I take the same focus whether it is with music, fitness, or perfecting my Spanish. Passion is the only way to complete long term goals and not give up when things get tough. </p>
+                </div>
+            </div>
         </div>
-<!---------Portfolio Section------->
-        <div class="container text-black" id="portfolio">
-          <div class="row inner">
-            <div class="col-lg-4">
-              <a href="#" class="thumbnail">
-              <h2>header 1</h2>
-              <p> this is some text that would go here about this company and so forth. and so forth.</p>
-              </a>
+    </section>
+  
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
             </div>
-            <div class="col-lg-4">
-               <a href="#" class="thumbnail">
-              <h2>header 2</h2>
-              <p> this is some text that would go here about this company and so forth. and so forth.</p>
-              </a>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
             </div>
-            <div class="col-lg-4">
-              <a href="#" class="thumbnail">
-              <h2>header 3</h2>
-              <p> this is some text that would go here about this company and so forth. and so forth.</p>
-              </a>
-            </div>
-            <div class="col-lg-4">
-               <a href="#" class="thumbnail">
-              <h2>header 4</h2>
-              <p> this is some text that would go here about this company and so forth. and so forth.</p>
-              </a>
-            </div>
-            <div class="col-lg-4">
-              <a href="#" class="thumbnail">
-              <h2>header 5</h2>
-              <p> this is some text that would go here about this company and so forth. and so forth.</p>
-              </a>
-            </div>
-            <div class="col-lg-4">
-              <a href="#" class="thumbnail">
-              <h2>header 6</h2>
-              <p> this is some text that would go here about this company and so forth. and so forth.</p>
-              </a>
-            </div>
-
-          </div>
         </div>
-<!--------------Contact --------->
-        <div id="Contact">
-      <h1>Contact Me</h1>
-      <ul class="nav nav pills">
-        <li class="active"><a href="https://www.freecodecamp.com/chinchano"target="_blank">FreeCodeCamp</a></li>
-        <li class="active"><a href="https://github.com/chinchano" target="_blank">Github</a></li>
-        <li class="active"><a href="https://www.linkedin.com/in/brian-mckie-b4781b95"target="_blank">LinkedIn</a></li>
-        <li class="active"><a href="mailto:brianmckie2@gmail.com" target="_blank"target="_blank">Email</a></li>
-      </ul>
-    </div>
-
-      </div>
-    </div>
-  </div>
-
+    </section>
+  
+  <!---Footer -->
+  <footer class="text-center" id="footer">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="footer-col col-md-6">
+                        <h3>Be Social</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.freecodecamp.com/chinchano"target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook">FreeCodeCamp</i></a>
+                            </li>
+                          
+                            <li>
+                                <a href="https://github.com/chinchano" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter">Github</i></a>
+                            </li>
+                            <li>
+                                <a  href="https://www.linkedin.com/in/brian-mckie-b4781b95"target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin">LinkedIn</i></a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-6">
+                        <h3>Email Me</h3>
+                        <p>Feel free to email me with any questions <a href="mailto:brianmckie2@gmail.com" target="_blank"target="_blank">here.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Brian McKie 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+  
+  </section>
 
 </body>
+
+
